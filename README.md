@@ -24,5 +24,3 @@ The communication between Python and NodeJs is being made with the help of `Flas
  4. Display the backend answer.
 
 ## Conclusion
-
-No Comments so far. :P
