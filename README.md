@@ -52,8 +52,6 @@ python backend
 After that open the `index.html` file inside the frontend and start chatting with your new friend. *:P*
 
 ## Conclusion
-<<<<<<< HEAD
 
 This was a small Project that helped me with ml and the communication between `python/js` .
-=======
->>>>>>> 93516995dfc44b59d57342bcbce7f37d8c0d6b43
+
