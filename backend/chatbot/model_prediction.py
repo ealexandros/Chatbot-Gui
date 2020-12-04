@@ -1,6 +1,6 @@
 import tensorflow
-import keras
-from keras import models
+import tensorflow.keras
+from tensorflow.keras import models
 
 import numpy as np
 import nltk
@@ -23,9 +23,9 @@ if(TRAIN_MODEL):
     training_model()
 
 try:
-    data = json.loads(open('backend/chatbot/utilities/conversation.json').read())["conversation"]
-    model = models.load_model("backend/chatbot/utilities/model.h5")
-    labels, words = pickle.load(open('backend/chatbot/utilities/labels_words.pickle' ,'rb'))
+    data = json.loads(open('/usr/src/chatbot/utilities/conversation.json').read())["conversation"]
+    model = models.load_model("/usr/src/chatbot/utilities/model.h5")
+    labels, words = pickle.load(open('/usr/src/chatbot/utilities/labels_words.pickle' ,'rb'))
 except:
     NO_MODEL = 1
 

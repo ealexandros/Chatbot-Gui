@@ -38,12 +38,26 @@ The communication between Python and Js is being made with the help of `Flask`.
 
 
 
-## How to set it up 
+## How to set it up
+
+### 1. Use Docker
+
+In order to use docker you need to install the keras container
+```bash
+-> docker pull tensorflow/tensorflow
+```
+After Downloading the tensorflow container just type,
+```bash
+-> docker-compose up
+```
+After a few minutes everything will be set up and ready to **Go**. The last step is to connect on `localhost:8080`.
+
+### 2. Start it manually
 
 #### Start python-server
 First of all you need to start the `python` server. Open a **command-prompt** in the chatbot folder and type:
 ```bash
-python backend
+-> python backend
 ``` 
 *- This will automatically start the server.*
 
