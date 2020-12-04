@@ -42,15 +42,15 @@ The communication between Python and Js is being made with the help of `Flask`.
 
 ### 1. Use Docker
 
-In order to use docker you need to install the keras container
+In order to use docker you need to install the tensorflow container. You can do that with this command:
 ```bash
 -> docker pull tensorflow/tensorflow
 ```
-After Downloading the tensorflow container just type,
+When the tensorflow container installs on your machine, execute this command:
 ```bash
 -> docker-compose up
 ```
-After a few minutes everything will be set up and ready to **Go**. The last step is to connect on `localhost:8080`.
+After a few minutes everything will be set up and ready to **Go**. The last step is to connect on `localhost:8080` and start talking with the **Bot**.
 
 ### 2. Start it manually
 
