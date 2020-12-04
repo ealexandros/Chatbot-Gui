@@ -1,7 +1,8 @@
 backend/__pycache__/
 backend/chatbot/__pycache__/
 
-backend/chatbot/utilities/*.pickle
+backend/chatbot/utilities/output_data.pickle
+backend/chatbot/utilities/training_data.pickle
 
 frontend/Chatbot.xd
 frontend/src/assets/
