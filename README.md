@@ -1,71 +1,81 @@
-# Javascript-Python Chatbot
+# Chatbot GUI
 
-*In this repository you have a **Chatbot** with `html/css` GUI.*
+*In this repository you have a Graphical User Interface **Chatbot**, made with python and javascript/html/css.*
 
-### Description
+## 📚 Table of Content
 
-\- In this **Repository** you have a chatbot that has a Graphical User Interface with the help of html/css.
+- [Description](#-description)
+- [Technologies](#-technologies)
+- [Setup](#-setup)
+- [Todos](#-todos)
+- [Conclusion](#-conclusion)
 
-In particular, I used `Python/Tensorflow` to train the Chatbot and used `html/css` in order to make the web app. 
+## 🎯 Description
+
+As mentioned above, in this **Repository** we have a chatbot with GUI that is made with the help of python and javascript/html/css.
+
+In particular, I used `Python/Tensorflow` to train the Chatbot and used `javascript/html/css` in order to make the web app. 
 
 The communication between Python and Js is being made with the help of `Flask`.
 
-## What needs to be done:
+## ⚙ Technologies
 
-1. Train the Chatbot.
- 1. Create a dataset.
- 2. Process the dataset.
- 3. Train the `Model`.
- 4. Create the `API.`
-2. Make the Web Application.
- 1. Design the Application.
- 2. Implement the Design.
- 3. Make the Communication between **Front and backend**.
- 4. Display the backend answer.
+This project consist of two parts. The first part is made with the help of python (more specifically the hole bot is written in python), and the rest is made with javascript html/css.
 
-## What technologies were used
+#### Python Part: 
+1. **Tensorflow/Keras**, training the bot.
+2. **NLTK**, language processing toolkit.
+3. **Flask**, creating the api.
+4. **numpy/pickle**, utilities.
 
-#### For the python-backend:
-1. Tensorflow/Keras
-2. NLTK
-3. flask
-4. numpy/pickle
+#### GUI Part:
 
-#### For the front-end:
+1. **javascript/html/css**, vanilla. 🙂
 
-1. html/css
-2. Javascript
+## ➡ Setup
 
-
-
-## How to set it up
-
-### 1. Use Docker
+### 1st Option (Use Docker)
 
 In order to use docker you need to install the tensorflow container. You can do that with this command:
 ```bash
--> docker pull tensorflow/tensorflow
+.\> docker pull tensorflow/tensorflow
 ```
 When the tensorflow container installs on your machine, execute this command:
 ```bash
--> docker-compose up
+.\> docker-compose up
 ```
 After a few minutes everything will be set up and ready to **Go**. The last step is to connect on `localhost:8080` and start talking with the **Bot**.
 
-### 2. Start it manually
+### 2nd Option (Start it manually)
 
-#### Start python-server
+#### Start API
+
 First of all you need to start the `python` server. Open a **command-prompt** in the chatbot folder and type:
+
 ```bash
--> python backend
+.\> python backend
 ``` 
 *- This will automatically start the server.*
 
-#### Start index.html
+#### Start GUI
 
-After that open the `index.html` file inside the frontend and start chatting with your new friend. *:P*
+After that open the `index.html` file inside the frontend and start chatting with your new friend. 
 
-## Conclusion
+## Todos
 
-This was a small Project that helped me with ml and the communication between `python/js` .
+| What need to be implemented           | Already done |
+|---------------------------------------|:------------:|
+|Train the bot                          |✅           |
+|Create a dataset                       |✅|          |
+|Process the dataset                    |✅|          |
+|Create the API                         |✅|          |
+|Make the web application               |✅|          |
+|Design the application                 |✅|          |
+|Implement the design                   |✅|          |
+|Connect the frontend with the backend  |✅|          |
+|Display the backend answer             |✅|          |
+
+## ✨Conclusion
+
+This was a small Project that helped me understand some new things. One of them is how to achieve the communication between `python/js`.
 
